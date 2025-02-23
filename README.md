@@ -11,8 +11,6 @@ UNIREC is a web platform designed to provide students with secure access to clas
 ## 🔹 Features  
 ✔ **Secure Authentication** – Integrated with Firebase Authentication.  
 ✔ **Video Playback** – Embedded YouTube videos for class viewing.  
-✔ **Note-Taking** – A tool for students to organize their notes.  
-✔ **Reminders & Announcements** – Notification system for assignments and class updates.  
 
 ## 🎯 Project Purpose  
 As a university student, I noticed that many classmates struggled to organize and access class recordings. UNIREC aims to centralize all academic information in one place, making studying more efficient and structured.  
