@@ -1,0 +1,37 @@
+
+.topnav-header-admin {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav-header-admin a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav-header-admin a:hover {
+    color: #ddd;
+  }
+  
+  .topnav-header-admin a.split {
+    float: right;
+    background-color: #aa0404;
+    color: white;
+  }
+
+
+
+@media (max-width: 500px) {
+   .topnav-header-admin{
+    display: inline-flex;
+    bottom: 0;
+   }
+   .topnav-header-admin a.split {
+    text-align: center;
+    padding-top: 26px;
+  }
+}
