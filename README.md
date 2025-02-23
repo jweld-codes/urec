@@ -1,7 +1,7 @@
-# UNIREC 🎓📚  
+# UREC 🎓📚  
 **University Class Recording System**  
 
-UNIREC is a web platform designed to provide students with secure access to class recordings, take notes, and stay updated on important announcements. The project was created to centralize academic resources in one place, making studying more convenient and eliminating the need to rely on scattered links or external platforms.  
+UREC is a web platform designed to provide students with secure access to class recordings, take notes, and stay updated on important announcements. The project was created to centralize academic resources in one place, making studying more convenient and eliminating the need to rely on scattered links or external platforms.  
 
 ## 🚀 Technologies Used  
 - **Frontend:** HTML, CSS, JavaScript, Vue.js  
