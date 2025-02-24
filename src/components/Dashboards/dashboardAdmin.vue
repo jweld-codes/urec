@@ -88,14 +88,14 @@ export default {
   methods: {
     async fetchClassData() {
       try {
-        const classDocRef = doc(projectFirestore, 'classes', 'fkTkJsqYzaquKA33GF4e');
+        const classDocRef = doc(projectFirestore, 'classes', '**');
         const classDocSnap = await getDoc(classDocRef);
 
 		if (classDocSnap.exists()) {
           this.classInfo = classDocSnap.data();
         }
 
-        const lessonsRef = collection(projectFirestore, 'classes', 'fkTkJsqYzaquKA33GF4e', 'lessons');
+        const lessonsRef = collection(projectFirestore, 'classes', '**', 'lessons');
         const lessonsSnapshot = await getDocs(lessonsRef);
         
         let totalDuration = 0;
